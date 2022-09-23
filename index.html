@@ -1,117 +1,231 @@
 # paulinohost.github.io
 <html>
     <head>
+        <title>Derivado de "Proyecto: libro de recetas"</title>
         <meta charset="utf-8">
-        <title>Mi Blog de aprendizaje HTML</title>
-
-      <style>
-
-    body{background-color:rgb(217, 193, 193);
-    }
-    h1{
-        color:rgb(186, 124, 88);
-        font-size:50;
-        background-color:rgb(124, 230, 195);
-    }    
-      h6{
-        font-size:20px;
-        background-color:rgb(90, 196, 85);
-    }    
-
-      h3 {
-        text-align:left;
-        font-size:20px;
-        font-weight:bold;
-        font-family:serif;
-        text-decoration:underline;
-        color:rgb(33, 166, 106);
-    }
-   #menu {
-        text-align:left;
-        font-size:20px;
-        font-weight:bold;
-        font-family:serif;
-        text-decoration:underline;
-        color:red;
-    }   
-     #comentario {
-        text-align:center;
-        font-size:45px;
-        font-weight:bold;
-        font-family:serif;
-        text-decoration:underline;
-        color:rgb(214, 70, 30);
-    }   
-    #plataforma {
-        text-align:center;
-        font-size:45px;
-        font-weight:bold;
-        font-family:impact;
-        text-decoration:underline;
-        color:red;
-    }    
-     #ejercicios {
-        text-align:center;
-        font-size:45px;
-        font-weight:bold;
-        font-family:impact;
-        text-decoration:underline;
-        color:rgb(102, 124, 201);
-    }    
-     #problemas {
-        text-align:center;
-        font-size:45px;
-        font-weight:bold;
-        font-family:impact;
-        text-decoration:underline;
-        color:rgb(179, 39, 125);
-    }    
-    </style>
+        <style>
+        h1 {
+            color:rgb(35, 110, 30);
+            background-color:rgb(45, 181, 176);
+        }
+        h2 {
+            color:rgb(200,100,50);
+            background-color:rgb(196, 209, 132);
+        }
+        #lentejas{
+            color:red;
+        }
+        #paella{
+            color:rgb(76, 50, 209);
+        }
+        #milanesas{
+            color:magenta;
+        }
+        </style>
     </head>
-
-
     <body>
-
-        <h1>Mi blog aprendiendo HTML</h1>
-
-        <h3>Contenido</h3>
-        <ul id="menu">
-            <li><a href="#comentario">Primer comentario</a></li>
-            <li><a href="#plataforma">La plataforma de enseñanza</a></li>
-            <li><a href="#ejercicios">Los ejercicios</a></li>
-            <li><a href="#problemas">Los problemas que aparecieron</a></li>
+       
+        <h1>____ Libro de Recetas</h1>
+        
+        <h2>Contenido:</h2>
+        
+        <ol>
+            <li><a href="#lentejas">Receta #1</a></li>
+            
+            <li><a href="#paella">Receta #2</a></li>
+            
+              <li><a href="#milanesas">Receta #3</a></li>
+        </ol>
+        
+        <h2 id="lentejas">Arroz con Lentejas</h2>
+        <ul>
+            <li>Tiempo: 60 minutos</li>
+            <li>Ribde: 4 porciones</li>
         </ul>
-
-        <h2 id="comentario">Primer comentario</h2>
-        <h6>Aca cuento porque y como llegué a interesarme por este curso </h6>
-
-        <p>Comencé este curso con la curiosidad de aprender como es el diseño de una página web<br>
-            La primera impresión fué la de encontrar un lenguaje agradable y simple de entender con una estructura bien sencilla
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>Lentejas</td>
+            <td>500gr</td>
+            </tr>
+            <tr>
+            <td>Arroz</td>
+            <td>300gr</td>
+            </tr>
+             <tr>
+            <td>Chorizo</td>
+            <td>250gr</td>
+            </tr>
+             <tr>
+            <td>Pure Tomate</td>
+            <td>500gr</td>
+            </tr>
+             <tr>
+            <td>Sal</td>
+            <td>50gr</td>
+            </tr>
+             <tr>
+            <td>Pimienta</td>
+            <td>20gr</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Paso 1:</strong> Poner en agua las lentejas por 1 dia
         </p>
-
-         <h2 id="plataforma">La plataforma de enseñanza</h2>
-        <h6>Una breve descripción de como es el tipo de dictado del curso y como se accede al mismo</h6>
-
-        <p>Al principio no comprendía como era el método para avanzar en el aprendizaje ya que no había podido asistir a los primeros encuentros virtuales<br>
-            Luego de aclarar algunas dudas con el profesional que dicta el curso pude avanzar con los pasos de la plataforma Khabacademy que básicamente te va enseñando paso a paso como se escribe una página en HTML y luego te pide un ejercicio de lo que se explicó<br>
-            Todo está detallado en la consigna del ejercicio y al ejecutar el mismo correctamente te deja seguir con el curso
-        </p>   
-
-          <h2 id="ejercicios">Los ejercicios</h2>
-        <h6>En esta sección describo como son los ejercicios que se deben ralizar en Kahnacaddemy</h6>
-
-        <p>Los ejercicios se basan siempre en el video explicativo de cada propiedad y sentencia de HTML o CSS<br>
-            Por ejemplo, si se explica el modo de dar color a un párrafo y el fondo del mismo, luego se pide cambiar los colores de un párrado determinado dando un estilo propio al mismo<br>
-            También hay un ejercicio que contempla multiples opciones a una pregunta y al finalizar se da el puntaje alcanzado con ese ejercicio<br>
-            Al final de cada capítulo se de un ejercicio mas amplio que pide aplizar lo aprendido en esta parte del curso
-        </p>   
-
-         <h2 id="problemas">Los problemas que aparecieron</h2>
-        <h6>Siempre al querer ejecutar los ejercicios aparecen dudas y se dificulta el avance. Aquí se describe como se pueden solucionar</h6>
-
-        <p>Luego de avanzar en algunos capítulos, aparecen situaciones que no puedes solucionar<br>
-            Simplemente se detiene el avance en ese punto y una manera de salir de ese problema es esperar al día de la clase virtual y exponer el problema para que el docente indique como solucionarlo<br>
-            Otra opción es poner el problema en el grupo de whatsapp del curso y el profesor o algún otro compañero ayuda en lo que puede<br>
-            </p>   
+        <p><strong>Paso 2:</strong> Hervir las lentejas 30 minutos
+        </p>
+        <p><strong>Paso 2:</strong> Cocinar el arroz con las lentajas por 15 minutos
+        </p>
+        <p><strong>Paso 3:</strong> Cocinar la salda agregando al pure de tomates sal y pimienta
+        </p>
+        <p><strong>Paso 4:</strong> Agregar el chorizo a la salsa y coinar por 15 minutos
+        </p>
+        <p><strong>Paso 4:</strong> Agragar la salsa al arroz y las lentejas
+        </p>
+    <p><em>Source: <a href="https://es.wikipedia.org/wiki/Lentejas_con_chorizo">Para mas detalles pulse aquí</a></em></p>
+    
+     <h2 id="paella">Paella</h2>
+        <ul>
+            <li>Tiempo: 120 minutos</li>
+            <li>Ribde: 8 porciones</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>Arroz</td>
+            <td>1Kg</td>
+            </tr>
+            <tr>
+            <td>Tubos Calamar</td>
+            <td>250gr</td>
+            </tr>
+             <tr>
+            <td>Camarones</td>
+            <td>250gr</td>
+            </tr>
+             <tr>
+            <td>Mejillones</td>
+            <td>300gr</td>
+            </tr>
+            <tr>
+            <td>Tentaculos calamar</td>
+            <td>300gr</td>
+            </tr>
+            <tr>
+            <td>Pure de Tomates</td>
+            <td>500gr</td>
+            </tr>
+             <tr>
+            <td>Sal</td>
+            <td>100gr</td>
+            </tr>
+             <tr>
+            <td>Pimienta</td>
+            <td>25gr</td>
+            </tr>
+            <tr>
+            <td>Pimenton</td>
+            <td>50gr</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Paso 1:</strong> Limpiar y cortar en aros el calamar y los mejillones
+        </p>
+        <p><strong>Paso 2:</strong> Hervir los aros y los tentéculos de calamar por 30 minutos
+        </p>
+        <p><strong>Paso 2:</strong> Cocinar el arroz por 15 minutos
+        </p>
+        <p><strong>Paso 3:</strong> Cocinar la salsa agregando al pure de tomates sal y pimienta por 15 minutos
+        </p>
+        <p><strong>Paso 4:</strong> Agregar el calamar, los camarones y los mejillones al arroz y cocinar por 15 minutos
+        </p>
+        <p><strong>Paso 4:</strong> Agregar la salsa al arroz y los mariscos y cocinar por 19 minutos
+        </p>
+    <p><em>Source: <a href="https://es.wikipedia.org/wiki/Paella">Para mas detalles pulse aquí</a></em></p>
+    
+     <h2 id="milanesas">Milanesas a la Napolitana</h2>
+        <ul>
+            <li>Tiempo: 30 minutos</li>
+            <li>Ribde: 4 porciones</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>Arroz</td>
+            <td>1Kg</td>
+            </tr>
+            <tr>
+            <td>Bifes de Cuadril</td>
+            <td>1000gr</td>
+            </tr>
+             <tr>
+            <td>Pan Rallado</td>
+            <td>500gr</td>
+            </tr>
+             <tr>
+            <td>MHuevos</td>
+            <td>4</td>
+            </tr>
+            <tr>
+            <td>Perejil</td>
+            <td>100gr</td>
+            </tr>
+            <tr>
+            <td>Pure de Tomates</td>
+            <td>250gr</td>
+            </tr>
+             <tr>
+            <td>Sal</td>
+            <td>25gr</td>
+            </tr>
+             <tr>
+            <td>Pimienta</td>
+            <td>15gr</td>
+            </tr>
+            <tr>
+            <td>Queso mantecoso</td>
+            <td>200gr</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Paso 1:</strong> Colocar los huevos en un recipiente y batir por 2 minuto agregando sal, pimienta y perejil
+        </p>
+        <p><strong>Paso 2:</strong> Pasar cada bife de cuadril por el preparado del huevo y luego por el pan rallado
+        </p>
+        <p><strong>Paso 2:</strong> Cocinar al horno en temperatura media por 15 minutos
+        </p>
+        <p><strong>Paso 3:</strong> Sacar del horno y dar vuelta los bifes
+        </p>
+        <p><strong>Paso 4:</strong> Cocinar por 10 minutos a temperatura media
+        </p>
+        <p><strong>Paso 4:</strong> Agregar la el pure de tomate a cada bife y arriba colocar el queso cremoso
+        </p>
+        <p><strong>Paso 4:</strong> Cocinar unos minutos hasta observar que el queso se ha derretido
+        </p>
+    <p><em>Source: <a href="https://es.wikipedia.org/wiki/Milanesa_napolitana">Para mas detalles pulse aquí</a></em></p>
     </body>
 </html>
